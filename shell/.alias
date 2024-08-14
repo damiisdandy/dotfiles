@@ -1,0 +1,7 @@
+alias loaddotenv="export \$(grep -v '^#' .env | xargs)"
+alias ga="git add"
+alias gs="git status"
+alias gp="git push"
+alias gpf="git push --force"
+alias gc="git commit"
+alias gl="git log"
